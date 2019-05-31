@@ -1,0 +1,80 @@
+html {
+  font-size: 14px;
+}
+
+.text-646f79{color: #646f79;}
+.text-blue{color: #0000FF;}
+.bg-purple{background: #796EFF;}
+.bg-57B2DF{background: #57B2DF;}
+.bg-f2f2f2{background: #f2f2f2;}
+.bg-white{background: #fff;}
+.bg-black{background: #000;}
+.bg-E7E6E6{background: #E7E6E6;}
+
+.container {
+  max-width: 960px;
+}
+
+.pricing-header {
+  max-width: 700px;
+  margin-top: 5rem;
+}
+
+.card-deck .card {
+  min-width: 220px;
+}
+ 
+.header-section{
+	width: 100%;
+	padding: 10%;
+	background: #f5f8fb;	
+}
+
+.leads-section{
+  padding: 2% 10% 5%;
+  background: #fff;
+}
+
+.feature-section{
+	width: 100%;
+	padding: 5% 10%;
+	background: #1864C6;	
+}
+
+.onzeleads-section{
+  width: 100%;
+  padding: 3% 10%;
+  background: #f2f2f2;  
+}
+
+.footer-section{
+	width: 100%;
+	font-size: 12px;
+	background: #f5f8fb;	
+}
+
+.control-prev-left{margin-left: -5rem!important;}
+.control-prev-right{margin-right: -5rem!important;}
+
+.font-p8rem{font-size: .8rem;}
+
+.fb-icon{width: 20px;}
+.fb-icon:hover{opacity: .5;}
+
+#navbarheader .nav-link:hover{color: #fff!important;background: #007bff;border-color: #007bff!important;}
+
+#navbarheader .no-hover:hover{background: none!important;color: #007bff!important;}
+/** mobile */
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+@media (max-width: 768px) {
+  .hideinmobile {
+    display: none;
+  }
+  .control-prev-left{margin-left: -3rem!important;}
+  .control-prev-right{margin-right: -3rem!important;}
+  .header-section,.leads-section,.onzeleads-section{padding: 5%;}
+}
